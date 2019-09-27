@@ -14,6 +14,9 @@
       <div class="box">
         <div class="box-header">
             <h3 class="box-title">Transaction Data</h3>
+            <div class="pull-right">
+              <a href="<?= site_url('transaction/detail/')?>" class="btn btn-primary btn-flat"> <i class="fa fa-info"></i> Detail</a>
+            </div>
         </div>
         <div class="box-body table-responsive">
             <table class="table table-bordered table-striped" id="table1">
@@ -22,7 +25,6 @@
                         <th class="text-center">Id</th>
                         <th class="text-center">Customer Id</th>
                         <th class="text-center">Total</th>
-                        <th class="text-center">Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -31,9 +33,6 @@
                         <td class="text-center"><?= $data->id?></td>
                         <td class="text-center"><?= $data->customer_id?></td>
                         <td class="text-center"><?= $data->total?></td>
-                        <td class="text-center">
-                        <a href="<?= site_url('transaction/detail/'.$data->id)?>" class="btn btn-primary btn-xs"> <i class="fa fa-info"></i> Detail</a>
-                        </td>
                     </tr>
                     <?php } ?>
                 </tbody>
