@@ -1,16 +1,18 @@
 
 ****************
-  ######################################## This Application ########################################
+  ##################################### This Application #####################################
 ****************
 
 Web Application with Codeigniter.
 
 Ini adalah aplikasi web point-of-sales saya.
 
-Milik "Adhitya Eka Permana" asal "Purbalingga"
+Milik "Adhitya Eka Permana" asal "Purbalingga".
+
+"Bang Aka27" => "Bang Adhitya eKA27". (Copyright 2019)
 
 ****************
- ######################################## Ada Beberapa Tab ######################################
+ ##################################### Ada Beberapa Tab ###################################
 ****************
 
 
