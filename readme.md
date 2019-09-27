@@ -7,6 +7,8 @@ Web Application with Codeigniter.
 
 Ini adalah aplikasi web point-of-sales saya.
 
+Milik "Adhitya Eka Permana" asal "Purbalingga"
+
 ****************
  ######################################## Ada Beberapa Tab ######################################
 ****************
