@@ -36,7 +36,6 @@
                         <td class="text-center"><?= $data->address?></td>
                         <td class="text-center">
                         <a href="<?= site_url('customers/edit/'.$data->id)?>" class="btn btn-warning btn-xs"> <i class="fa fa-pencil"></i> Edit</a>
-                                <a href="<?= site_url('customers/delete/'.$data->id)?>" class="btn btn-danger btn-xs" onclick="return confirm('Are you sure for delete this customer ?')"> <i class="fa fa-trash"></i> Delete</a>
                         </td>
                     </tr>
                     <?php } ?>
